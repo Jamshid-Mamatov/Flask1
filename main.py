@@ -6,11 +6,17 @@ def my_decorate(func):
     
     return wrapper
 
+@my_decorate
+
 def hi():
     print("hi")
 
+@my_decorate
 def bye():
     print("bye")
 
-x=my_decorate(bye)
-x()
+bye()
+
+hi()
+# x=my_decorate(bye)
+# x()
