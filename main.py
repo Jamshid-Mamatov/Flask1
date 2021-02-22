@@ -1,9 +1,7 @@
-def cube(v):
-    return v**3
+def richly_numbers(x):
+    return x*(x%2)
 
-def os(f,v):
-    return f(v)
+lst=[1,5,8,6,2,55,3,96,56]
 
-x=os(cube,3)
-# print(x)
-print(type(os))
+max_num=max(lst,key=richly_numbers)
+print(max_num)
