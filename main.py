@@ -5,4 +5,5 @@ def os(f,v):
     return f(v)
 
 x=os(cube,3)
-print(x)
+# print(x)
+print(type(os))
