@@ -11,10 +11,10 @@ jamshid_page="""<!DOCTYPE html>
 <body>
 
 <h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
+
 <h3>This is heading 3</h3>
-<h4>This is heading 4</h4>
-<h5>This is heading 5</h5>
+
+
 <h6>This is heading 6</h6>
 
 <p><b>Tip:</b> Use h1 to h6 elements only for headings. Do not use them just to make text bold or big. Use other tags for that.</p>
@@ -24,7 +24,7 @@ jamshid_page="""<!DOCTYPE html>
 """
 
 @app.route("/jamshid")
-
+@app.route("/student")
 def i():
     return jamshid_page
 
