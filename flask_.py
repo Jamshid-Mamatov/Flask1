@@ -6,4 +6,11 @@ app=Flask(__name__)
 def hi():
     return "salom"
 
-app.run()
+
+@app.route("/jamshid")
+
+def i():
+    return "i am student"
+
+
+app.run(debug=True)
